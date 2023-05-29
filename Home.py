@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 
+st.set_page_config(layout="wide")
 
 api_key = "YOUR API KEY"  # here set your NASA api key
 request_url = f"https://api.nasa.gov/planetary/apod?api_key={api_key}"  # url to apod
